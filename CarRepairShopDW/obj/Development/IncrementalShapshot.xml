@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CarRepairShopDW</Database>
+    <Server>LPTP_KRZ</Server>
+    <ConnectionString>Data Source=LPTP_KRZ;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>lC4gIYOMoKy6T9tg4KTH2E9IpaE=04.01.2024 12:46:1004.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Car Repair Shop DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>r6SAu/G7MsfsehxntTXObDuy/jI=05.12.2023 11:40:5704.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Car Repair Shop DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hYd9hRz9SCrMET6Dg7MCMHoROsw=01.12.2023 17:49:3404.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Mechanic</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z4bC8pOLISWR+PssgNrJbHZrPm4=01.12.2023 16:56:3204.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1oYgzTRWR9LHeu6HKpSPQJm4w/A=05.12.2023 11:42:2804.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Repair</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9uis6ALeBLbYHSlIZcEflj0mS+o=05.12.2023 11:44:0104.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Part</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Q1eDR0XDpMA/TDRBNaX28FBbKyU=05.12.2023 11:44:0104.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Junk</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3Z5i0WbSUKfAPAZqAUd/p+QNUx0=01.12.2023 17:43:5004.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Car</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z64FwFLdmbK0ywhNe/Z9wwrasjU=05.12.2023 11:40:5704.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Repair number copy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>o6l+mEFRjLmAjiJtUz24jQHUOBk=01.12.2023 17:43:5004.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>2gvwPKjkklD3LFXkbuxPY7H4qKc=05.12.2023 11:44:0104.01.2024 12:44:41ERUwlYSQkpCcDBrKGPqN2KBMBUo=01.12.2023 17:50:0804.01.2024 12:44:41</TimeStamp>
+        <ID>
+          <String>Car Repair Shop DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>jw7/z6B9I8OLybfb+Gt80q2EpTY=01.12.2023 16:56:3204.01.2024 12:44:41</TimeStamp>
+      <ID>
+        <String>CarRepairShopDW</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-01-04T11:46:44.01Z</LastDeployed>
+</DeploymentSnapshot>

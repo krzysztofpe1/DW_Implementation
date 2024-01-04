@@ -1,0 +1,226 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c0557793-1484-4593-a4db-2a24ce7d77a0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Repair</ID>
+  <Name>Repair</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6621" scrolltop="-8797" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="22013" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Repair" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e20e000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Repair" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6621</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8797</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6cffa670-326e-4f86-8f49-73767ac13f69">
+    <DataSourceViewID>Car Repair Shop DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="bc0bcfa5-5454-482b-aafe-67e39e2a038d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="35a99f27-378d-4f97-946f-2ea00468ae1d">
+      <ID>Id Repair</ID>
+      <Name>Id Repair</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8476a780-9f73-4d3a-be7a-1408a943829a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c9eabb4-7314-4ede-bad8-1a0c1d192a79">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>id_repair</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a20ccb70-f53b-417c-a0d2-83e78d13593a">
+          <AttributeID>FK Repair Date Start</AttributeID>
+          <Name>FK Repair Date Start</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f4f932ee-453a-4375-9cb2-7e5832d92422">
+          <AttributeID>FK Id Junk</AttributeID>
+          <Name>FK Id Junk</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="af633f24-cce3-4500-b976-24ea21583e62">
+          <AttributeID>FK Id Car</AttributeID>
+          <Name>FK Id Car</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="80541d47-0a25-4689-b353-4f83b61521d4">
+          <AttributeID>FK Repair Date End</AttributeID>
+          <Name>FK Repair Date End</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e1b5576c-da2e-4746-a244-a76e8be7f30b">
+          <AttributeID>FK Id Mechanic</AttributeID>
+          <Name>FK Id Mechanic</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab9a55ec-8040-44a8-840f-db68dd25ac89">
+          <AttributeID>Pricing</AttributeID>
+          <Name>Pricing</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="690871ba-42e2-4dd7-bf06-586db4ca4502">
+      <ID>FK Repair Date Start</ID>
+      <Name>FK Repair Date Start</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="faf47b13-5170-4c50-81ea-0b37729ea0c4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ada7045e-591d-4fb2-9492-134d0c4740c5">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>FK_repair_date_start</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6f768687-0f41-4da3-9914-f8a4f62a8122">
+      <ID>FK Id Junk</ID>
+      <Name>FK Id Junk</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5c3660b-0568-458b-aefe-cf3a12773bf0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8adbd07e-306b-4aff-b35e-d3eef3ab1d39">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>FK_id_junk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4842f27c-951b-4404-a78f-a854934cc420">
+      <ID>FK Id Car</ID>
+      <Name>FK Id Car</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="75425b0e-cfcc-4754-9630-8621fececf3e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="10c8681a-5032-4077-b4f0-afeb55d93e15">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>FK_id_car</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a502989d-fd0d-4867-ae1c-abc9a9b61ad0">
+      <ID>FK Repair Date End</ID>
+      <Name>FK Repair Date End</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="032c835e-a4e0-4478-bcce-1b9171a3a760">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="092e88ab-9c84-47be-a5fe-58bc1aceeddb">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>FK_repair_date_end</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bbd7df00-a7cb-4d05-934a-6e3c97e545b9">
+      <ID>FK Id Mechanic</ID>
+      <Name>FK Id Mechanic</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bcc53dae-a555-4ca3-ac38-bd7d5e93a083">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="426e8f99-94b4-4c63-abb1-3e63508e8339">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>FK_id_mechanic</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9947216-9244-47be-b477-0aa46a7d5e9b">
+      <ID>Pricing</ID>
+      <Name>Pricing</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d8f024e-8ff4-4111-8716-6e3890267fc9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b2cf0e7-8ca6-4368-88bb-c90b8215811a">
+            <TableID>dbo_Repair</TableID>
+            <ColumnID>pricing</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
