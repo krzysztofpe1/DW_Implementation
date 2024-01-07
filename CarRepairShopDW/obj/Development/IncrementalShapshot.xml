@@ -19,77 +19,77 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>lC4gIYOMoKy6T9tg4KTH2E9IpaE=04.01.2024 12:46:1004.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>lC4gIYOMoKy6T9tg4KTH2E9IpaE=04.01.2024 12:46:1004.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Car Repair Shop DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>r6SAu/G7MsfsehxntTXObDuy/jI=05.12.2023 11:40:5704.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>r6SAu/G7MsfsehxntTXObDuy/jI=05.12.2023 11:40:5704.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Car Repair Shop DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hYd9hRz9SCrMET6Dg7MCMHoROsw=01.12.2023 17:49:3404.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>hYd9hRz9SCrMET6Dg7MCMHoROsw=01.12.2023 17:49:3404.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Mechanic</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z4bC8pOLISWR+PssgNrJbHZrPm4=01.12.2023 16:56:3204.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>Z4bC8pOLISWR+PssgNrJbHZrPm4=01.12.2023 16:56:3204.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1oYgzTRWR9LHeu6HKpSPQJm4w/A=05.12.2023 11:42:2804.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>1oYgzTRWR9LHeu6HKpSPQJm4w/A=05.12.2023 11:42:2804.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Repair</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9uis6ALeBLbYHSlIZcEflj0mS+o=05.12.2023 11:44:0104.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>9uis6ALeBLbYHSlIZcEflj0mS+o=05.12.2023 11:44:0104.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Part</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Q1eDR0XDpMA/TDRBNaX28FBbKyU=05.12.2023 11:44:0104.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>Q1eDR0XDpMA/TDRBNaX28FBbKyU=05.12.2023 11:44:0104.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Junk</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3Z5i0WbSUKfAPAZqAUd/p+QNUx0=01.12.2023 17:43:5004.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>3Z5i0WbSUKfAPAZqAUd/p+QNUx0=01.12.2023 17:43:5004.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Car</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z64FwFLdmbK0ywhNe/Z9wwrasjU=05.12.2023 11:40:5704.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>Z64FwFLdmbK0ywhNe/Z9wwrasjU=05.12.2023 11:40:5704.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Repair number copy</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>o6l+mEFRjLmAjiJtUz24jQHUOBk=01.12.2023 17:43:5004.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>o6l+mEFRjLmAjiJtUz24jQHUOBk=01.12.2023 17:43:5004.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Client</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>2gvwPKjkklD3LFXkbuxPY7H4qKc=05.12.2023 11:44:0104.01.2024 12:44:41ERUwlYSQkpCcDBrKGPqN2KBMBUo=01.12.2023 17:50:0804.01.2024 12:44:41</TimeStamp>
+        <TimeStamp>/PjGKyJgikT+F/I5Yxb0J7hU3QU=07.01.2024 22:38:4004.01.2024 14:32:10ERUwlYSQkpCcDBrKGPqN2KBMBUo=01.12.2023 17:50:0804.01.2024 14:32:10</TimeStamp>
         <ID>
           <String>Car Repair Shop DW</String>
         </ID>
@@ -97,7 +97,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>jw7/z6B9I8OLybfb+Gt80q2EpTY=01.12.2023 16:56:3204.01.2024 12:44:41</TimeStamp>
+      <TimeStamp>jw7/z6B9I8OLybfb+Gt80q2EpTY=01.12.2023 16:56:3204.01.2024 14:32:10</TimeStamp>
       <ID>
         <String>CarRepairShopDW</String>
       </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-04T11:46:44.01Z</LastDeployed>
+  <LastDeployed>2024-01-07T21:38:41.303333Z</LastDeployed>
 </DeploymentSnapshot>
